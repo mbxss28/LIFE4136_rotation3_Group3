@@ -2,7 +2,11 @@
 Repository of scripts used for the rotation3 analysis of cardamine amara haploid genomic data.
 
 Brief introduction 
-Whole genome duplications(WGD) play a crucial role in the in driving the genomic diveristy (Ren, R et al 2018) with these events playing a crucial role in many plant (Del Pozo, J.C. and Ramirez-Parra, E., 2015) and cancer populations (López, S et al, 2020). Despite these benefits, WGD is often associated with increased genome istability among other issues (Comai, L., 2005). 
+Whole genome duplications(WGD) play a crucial role in the in driving the genomic diveristy (Ren, R et al 2018) with these events playing a crucial role in many plant (Del Pozo, J.C. and Ramirez-Parra, E., 2015) and cancer populations (López, S et al, 2020). Despite these benefits, WGD is often associated with increased genome istability among other issues (Comai, L., 2005), leading to adaptation to take place to help deal with these issues. To help understand this process better cardamine amara, a species of plant that shows great ploidy variation, to help understand this process better.
+
+For the puposes of this analysis cardamine amara diploids and there haplosomes, with three different annotation where made when analysing the haploid genomes, looking at gene, TE (transposable element) and finally looking at different repeat regions such as teleomeres and centromeres. The workflow for each of these different annoatations will be described in the corrasponding directory.
+
+Gene annotation 
 
 
 
