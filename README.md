@@ -8,16 +8,17 @@ For the puposes of this analysis cardamine amara diploids and there haplosomes, 
 
 Gene annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/GENE_Annotatition]
 
+Teleomere/Centromere annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/Repeats_Annotation]
 
 
 
 
 
 
-[Comai, L., 2005. The advantages and disadvantages of being polyploid. Nature reviews genetics, 6(11), pp.836-846.]
+Comai, L., 2005. The advantages and disadvantages of being polyploid. Nature reviews genetics, 6(11), pp.836-846.
 
-[Del Pozo, J.C. and Ramirez-Parra, E., 2015. Whole genome duplications in plants: an overview from Arabidopsis. Journal of Experimental Botany, 66(22), pp.6991-7003.]
+Del Pozo, J.C. and Ramirez-Parra, E., 2015. Whole genome duplications in plants: an overview from Arabidopsis. Journal of Experimental Botany, 66(22), pp.6991-7003.
 
-[López, S., Lim, E.L., Horswell, S., Haase, K., Huebner, A., Dietzen, M., Mourikis, T.P., Watkins, T.B., Rowan, A., Dewhurst, S.M. and Birkbak, N.J., 2020. Interplay between whole-genome doubling and the accumulation of deleterious alterations in cancer evolution. Nature genetics, 52(3), pp.283-293.]
+López, S., Lim, E.L., Horswell, S., Haase, K., Huebner, A., Dietzen, M., Mourikis, T.P., Watkins, T.B., Rowan, A., Dewhurst, S.M. and Birkbak, N.J., 2020. Interplay between whole-genome doubling and the accumulation of deleterious alterations in cancer evolution. Nature genetics, 52(3), pp.283-293.
 
-[Ren, R., Wang, H., Guo, C., Zhang, N., Zeng, L., Chen, Y., Ma, H. and Qi, J., 2018. Widespread whole genome duplications contribute to genome complexity and species diversity in angiosperms. Molecular plant, 11(3), pp.414-428.]
+Ren, R., Wang, H., Guo, C., Zhang, N., Zeng, L., Chen, Y., Ma, H. and Qi, J., 2018. Widespread whole genome duplications contribute to genome complexity and species diversity in angiosperms. Molecular plant, 11(3), pp.414-428.
