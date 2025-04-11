@@ -37,11 +37,15 @@ the column with the transcript id is kept rather than the gene ids since the tra
 Once the bed files are made they need to be copied into the bed directory in the genespace working directory designated within GENESPACE.R.
 
 ### Running genespace
+To run genespace a conda env was created in which orthofinder, MSX and R where installed into and for the purposes of this analysis this command
+
+R
+
+was used to activate R on the command line and then GENESPACE was installed through their. Exact specific will be shown in the 
 
 
 
-
-### References
+### Links 
 Augustus v.3.2.3 - [https://github.com/Gaius-Augustus/Augustus]
 
 BLAST 2.16.0+
@@ -51,3 +55,7 @@ GENESPACE v.1.3.1 - [https://github.com/jtlovell/GENESPACE/blob/master/]
 gffread v.0.12.7 - [https://ccb.jhu.edu/software/stringtie/gff.shtml#gffread]
 
 helixer - [https://www.plabipd.de/helixer_main.html]
+
+MCScanX = [https://github.com/wyp1125/MCScanX]
+
+Orthofinder v.2.5.5 = [https://github.com/davidemms/OrthoFinder]
