@@ -19,12 +19,12 @@ Genespace is tool used to compare the synteny and orthology of genomic samples. 
 ### Protein .fa files 
 This step is rather simple since it these files have already been generated, the change with these files was that the "_" was removed from the gene ids to make sure no issues arose during the genespace analysis. This was done with the command 
 
-cat proteins.fasta | tr -d "_" > proteins.fa
+cat proteins.fasta | tr -d "." > proteins.fa
 
 Once produced both the fa files where copied into the the peptide directory with the genespace directory that was created. 
 
 ### bed
-For the generation of the bed files, the previously made gtf files where first filtered to remove special characters such as "_" , ";" and "". 
+For the generation of the bed files, the previously made gtf files where first filtered to remove special characters such as "_" , ";", with this being done with the command 
 
 
 
