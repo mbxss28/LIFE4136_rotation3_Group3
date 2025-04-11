@@ -10,7 +10,7 @@ Using these GTF files CDS, protein and exon fasta files where generated though o
 
 blastp specifically was used for the purposes of this analysis looking at the specific regions of interest, hap1 RL_5 and hap2 RL_2 with these regoins being highly homologous to one another, with the blast search being down to look for any potential difference between them, specifically looking at differences in potein products. For this the non-redundant protein database(nr) was used for the search, however due to the size of the query sequences being used the search had to be done locally.
 
-The nr database was downloaded from [https://ftp.ncbi.nlm.nih.gov/blast/db/] using the get_nr.sh script and downloaded into a directory named nr. Once downloaded the blastp was used with the output of the blast search being .txt files.
+The nr database was downloaded from [https://ftp.ncbi.nlm.nih.gov/blast/db/] using the get_nr.sh script and downloaded into a directory named nr. Once downloaded the blastp was used with the output of the blast search being .txt files. It should be mentioned that the blast searches for the different haploid regions was done separtly to allow searches to be done at the same time.
 
 
 
