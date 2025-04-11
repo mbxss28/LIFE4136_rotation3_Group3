@@ -41,7 +41,7 @@ To run genespace a conda env was created in which orthofinder, MSX and R where i
 
 R
 
-was used to activate R on the command line and then GENESPACE was installed through their. Exact specific will be shown in the 
+was used to activate R on the command line and then GENESPACE was installed through their. Exact installation steps will be shown in [requiments](https://github.com/mbxss28/LIFE4136_rotation3_Group3/blob/main/requirements.txt)
 
 
 
