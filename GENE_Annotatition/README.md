@@ -13,6 +13,22 @@ blastp specifically was used for the purposes of this analysis looking at the sp
 The nr database was downloaded from [https://ftp.ncbi.nlm.nih.gov/blast/db/] using the get_nr.sh script and downloaded into a directory named nr. Once downloaded the blastp was used with the output of the blast search being .txt files. It should be mentioned that the blast searches for the different haploid regions was done separtly to allow searches to be done at the same time.
 
 
+## GENESPACE
+Genespace is tool used to compare the synteny and orthology of genomic samples. For this part of the analysis protein fa files and bed files of the entire hap1 and hap2 genomes where used. 
+
+### Protein .fa files 
+This step is rather simple since it these files have already been generated, the change with these files was that the "_" was removed from the gene ids to make sure no issues arose during the genespace analysis. This was done with the command 
+
+cat proteins.fasta | tr -d "_" > proteins.fa
+
+Once produced both the fa files where copied into the the peptide directory with the genespace directory that was created. 
+
+### bed
+For the generation of the bed files, the previously made gtf files where first filtered to remove special characters such as "_" , ";" and "". 
+
+
+
+
 
 
 
