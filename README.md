@@ -8,7 +8,7 @@ For the puposes of this analysis cardamine amara diploids and there haplosomes, 
 
 Gene annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/GENE_Annotatition]
 
-Teleomere/Centromere annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/Repeats_Annotation]
+Repeat annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/Repeats_Annotation]
 
 TE annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/TE_Annotation]
 
