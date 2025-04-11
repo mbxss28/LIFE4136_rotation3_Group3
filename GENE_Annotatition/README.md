@@ -21,13 +21,22 @@ This step is rather simple since it these files have already been generated, the
 
 cat proteins.fasta | tr -d "." > proteins.fa
 
-Once produced both the fa files where copied into the the peptide directory with the genespace directory that was created. 
+Once produced both the fa files where copied into the the peptide directory with the genespace working directory that is designated within GENESPACE.R. 
 
 ### bed
-For the generation of the bed files, the previously made gtf files where first filtered to remove special characters such as "_" , ";", with this being done with the command 
+For the generation of the bed files, the previously made gtf files where first filtered to remove special characters such as "_" , ";" and to remove rows only containing transcript information is present since GENESPACE can sometimes have issues when CDS or exon data is present. This was done with this command
 
+cat example.gtf | tr -d \" | tr -d ";" | tr -d "."| tr -d "_" | grep -v "exon" | grep -v "CDS" > example.gff
 
+Within the script that was used to convert the filter the gtf files they are converted into gff files, because GENESPACE does have an in built function (parse_annotatin) to convert GFF and fasta files into .fa and .bed files. If that does not work however you can instead make the .bed files manually by removing columns so only chr,start,end and transcript_id columns are left using this command
 
+cat example.gff | awk '{print $1,$2,$3,$9}' > example.bed
+
+the column with the transcript id is kept rather than the gene ids since the transcript ids match those in the .fa files which is necessary for genespace to function.
+
+Once the bed files are made they need to be copied into the bed directory in the genespace working directory designated within GENESPACE.R.
+
+### Running genespace
 
 
 
@@ -35,7 +44,9 @@ For the generation of the bed files, the previously made gtf files where first f
 ### References
 Augustus v.3.2.3 - [https://github.com/Gaius-Augustus/Augustus]
 
- BLAST 2.16.0+
+BLAST 2.16.0+
+
+GENESPACE v.1.3.1 - [https://github.com/jtlovell/GENESPACE/blob/master/]
 
 gffread v.0.12.7 - [https://ccb.jhu.edu/software/stringtie/gff.shtml#gffread]
 
