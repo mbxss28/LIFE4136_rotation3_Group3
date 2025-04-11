@@ -55,7 +55,7 @@ This command was used to activate R via the command line and then used to instal
 
 ### installation
 
-Exact installation steps for all the packages used in this analyisis will be shown in the requirements.txt file below.
+Exact installation steps for all the packages used in this analyisis will be shown in .
 [requiments](https://github.com/mbxss28/LIFE4136_rotation3_Group3/blob/main/requirements.txt)
 
 
