@@ -46,13 +46,22 @@ This command was used to activate R via the command line and then used to instal
 
 
 ###Workflow of scripts 
+
 gene_ann.sh
+
 samtools.sh
+
 read.sh
+
 read_region.sh
+
 getnr.sh
+
 blast.sh/blast2.sh
 
+whole_extract.sh
+
+run_r.sh
 
 
 
