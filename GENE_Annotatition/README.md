@@ -50,6 +50,8 @@ gene_ann.sh
 samtools.sh
 read.sh
 read_region.sh
+getnr.sh
+blast.sh/blast2.sh
 
 
 
