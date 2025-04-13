@@ -89,3 +89,5 @@ Exact installation steps for all the packages used in this analyisis will be sho
 [MCScanX](https://github.com/wyp1125/MCScanX)
 
 [Orthofinder](https://github.com/davidemms/OrthoFinder)
+
+[Samtools](https://www.htslib.org/doc/samtools-faidx.html)
