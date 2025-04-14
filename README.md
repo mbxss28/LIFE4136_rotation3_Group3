@@ -16,7 +16,8 @@ TE annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/
 
 
 ### Requirments 
-The list of all of the different packages used for each of the analysis pipeleines will be put into the 
+The list of all of the different packages used for each of the analysis pipeleines will be put into the [Requirments.txt](https://github.com/mbxss28/LIFE4136_rotation3_Group3/blob/main/requirements.txt). Before using make sure that conda is installed and that it is appened with conda-forge and bioconda channels.
+
 
 
 ### References
