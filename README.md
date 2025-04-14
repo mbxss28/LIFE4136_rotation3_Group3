@@ -7,7 +7,7 @@ Whole genome duplications(WGD) play a crucial role in the in driving the genomic
 For the puposes of this analysis cardamine amara diploids and there haplosomes, with three different annotation where made when analysing the haploid genomes, looking at gene, transposable elements(TE) and finally looking at different repeat regions such as teleomeres and centromeres. The workflow for each of these different annoatations will be described in the corrasponding directory.
 
 
-### Link to subdirectoies
+### Link to directories
 Gene annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/GENE_Annotatition]
 
 Repeat annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/Repeats_Annotation]
