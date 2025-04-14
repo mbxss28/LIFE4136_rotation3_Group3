@@ -15,6 +15,10 @@ Repeat annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/m
 TE annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/TE_Annotation]
 
 
+### Requirments 
+The list of all of the different packages used for each of the analysis pipeleines will be put into the 
+
+
 ### References
 Comai, L., 2005. The advantages and disadvantages of being polyploid. Nature reviews genetics, 6(11), pp.836-846.
 
