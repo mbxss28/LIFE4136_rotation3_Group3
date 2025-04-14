@@ -14,11 +14,15 @@
 
 source $HOME/.bash_profile
 
+#activating env in which samtools is installed
 conda activate samtools
 
+#setting paths of original .fa files
 Dip1=/share/BioinfMSc/rot3_group3/C087_203_mapq_hap1_8.fa
 Dip2=/share/BioinfMSc/rot3_group3/C087_203_mapq_hap2_8.fa
 
-samtools faidx $Dip1 RL_5 16000000 - 23979000
+#running samtools to extract regions of interest
+samtools faidx $Dip1 RL_5:16000000-23979000 > hap1_region.fasta
+samtools faidx $Dip2 RL_2:8923000-19004000 > hap2_region.fasta
 
 conda deactivate 

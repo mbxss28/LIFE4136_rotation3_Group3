@@ -14,17 +14,19 @@
 
 source $HOME/.bash_profile
 
+#activate env in which package was installed 
 conda activate gffread
 
+#setting up paths of genomes
 Dip1=/share/BioinfMSc/rot3_group3/C087_203_mapq_hap1_8.fa
 Dip2=/share/BioinfMSc/rot3_group3/C087_203_mapq_hap2_8.fa
 
 #exstract gff information for Dip1.gff file
-#gffread -x hap1cds.fasta -g  $Dip1  Dip1.sorted.gff
+gffread -x hap1cds.fasta -g  $Dip1  Dip1.sorted.gff
 
-#gffread -y hap1prot.fasta -g $Dip1  Dip1.sorted.gff
+gffread -y hap1prot.fasta -g $Dip1  Dip1.sorted.gff
 
-#gffread -w hap1exon.fasta -g $Dip1  Dip1.sorted.gff
+gffread -w hap1exon.fasta -g $Dip1  Dip1.sorted.gff
 
 
 #exstracts gff information for Dip2.gff file

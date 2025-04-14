@@ -1,1 +1,18 @@
 
+#install gene_annotation requirements
+conda install bioconda::augustus
+conda install bioconda::gffread
+conda install bioconda::blast
+conda install orthofinder=2.5.5
+conda install mcscanx
+conda install r-base=4.4.1
+conda install  r-devtools
+conda install  r-BiocManager
+conda install bioconductor-biostrings
+#To install genespace R needs to be activated within the terminal first
+devtools::install_github("jtlovell/GENESPACE")
+BiocManager::install("rtracklayer")
+
+#TE annotation requirments
+conda install edta
+conda install repeatmasker
