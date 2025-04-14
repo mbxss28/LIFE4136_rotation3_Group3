@@ -1,1 +1,4 @@
+#TE annotation requirments
+conda install edta
+conda install repeatmasker
 
