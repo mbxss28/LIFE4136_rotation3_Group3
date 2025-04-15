@@ -45,9 +45,11 @@ This command was used to activate R via the command line and then used to instal
 
 
 
-###Workflow of scripts 
+### Workflow of scripts 
 
 gene_ann.sh
+
+region.sh
 
 samtools.sh
 
