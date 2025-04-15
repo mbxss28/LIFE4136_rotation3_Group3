@@ -16,9 +16,9 @@ source $HOME/.bash_profile
 
 conda activate gffread
 
-#gffread -T  hap1region.gff >  hap1region.gtf
+gffread -T  hap1region.gff >  hap1region.gtf
 
-#gffread -T  hap2region.gff >  hap2region.gtf
+gffread -T  hap2region.gff >  hap2region.gtf
 
 gffread -T  Dip1.gff >  hap1.gtf
 
