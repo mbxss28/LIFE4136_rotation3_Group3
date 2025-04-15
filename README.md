@@ -14,6 +14,8 @@ Repeat annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/m
 
 TE annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/TE_Annotation]
 
+SyRI - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/SyRI_ROI]
+
 
 ### Requirments 
 Before using make sure that conda is installed and that it is appened with conda-forge and bioconda channels. Alongside this the different analytical pipelines may require different versions of R and python, which is why there are three different requirements.txt files for each of the pipleines.
