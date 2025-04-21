@@ -2,7 +2,7 @@
 
 ## EDTA
 
-EDTA requires a genome fasta 
+EDTA requires a uses the 
 
 
 
