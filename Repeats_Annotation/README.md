@@ -10,11 +10,7 @@ into the working directory being used rather than installing it into the conda e
 
 From the quarTeT page specifically CentroMiner and TeloExplorer where used to identify centromere and teleomere canidates with the -c plant clade option being used for the run. The output of TeloExplorer is a a .txt file containing information on what repeat was found, a .info file which contains information on what repeat was found, which chromosome the repeat was found and whether the repeat was found on both teleomeres, one or none.
 
-Fr CentroMiner 
-
-
-
-
+For CentroMiner the only requirement is the C087_203_mapq_hap1_8.fa and C087_203_mapq_hap2_8.fa files with the output being the creation of two directorys one called "Canidates" which contains .canidate files which contains information on the chromosome, start, end, length, TR length TR coverage. With this file telling you which centromere canidates there are. There is a .canidate file for each chromosome.  
 
 
 ### Links to tools
