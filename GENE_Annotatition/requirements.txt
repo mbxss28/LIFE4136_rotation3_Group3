@@ -1,6 +1,7 @@
 #install gene_annotation requirements
 conda install bioconda::augustus
 conda install bioconda::gffread
+conda install samtools=1.21
 conda install blast=2.14.0
 conda install orthofinder=2.5.5
 conda install mcscanx
