@@ -24,6 +24,8 @@ git clone https://github.com/aaranyue/quarTeT
 
 into the working directory being used rather than installing it into the conda env that was created. The instructions for this pipeline come from the [quarTeT](https://github.com/aaranyue/quarTeT) page.
 
+From the quarTeT page specifically CentroMiner and TeloExplorer where used to identify centromere and teleomere canidates  
+
 
 
 
