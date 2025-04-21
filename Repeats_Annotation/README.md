@@ -7,7 +7,10 @@ git clone https://github.com/aaranyue/quarTeT
 
 into the working directory being used rather than installing it into the conda env that was created. The instructions for this pipeline come from the [quarTeT](https://github.com/aaranyue/quarTeT) page.
 
-From the quarTeT page specifically CentroMiner and TeloExplorer where used to identify centromere and teleomere canidates with the -c plant clade option being used for the run. The output of TeloExplorer is a 
+
+From the quarTeT page specifically CentroMiner and TeloExplorer where used to identify centromere and teleomere canidates with the -c plant clade option being used for the run. The output of TeloExplorer is a a .txt file containing information on what repeat was found, a .info file which contains information on what repeat was found, which chromosome the repeat was found and whether the repeat was found on both teleomeres, one or none.
+
+Fr CentroMiner 
 
 
 
