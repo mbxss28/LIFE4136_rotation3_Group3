@@ -41,7 +41,12 @@ To run genespace a conda env was created in which orthofinder, MSX and R where i
 
 R
 
-This command was used to activate R via the command line and then used to install GENESPACE. Once installed the run_r.sh script was used to activate the genespace env that contained all the necessary packages and then used to run the GENESPACE.R script within that env. During the process of running genespace several directories should automatically be created with the necessary data produced via genespace being automatically placed within those directoies, such as specific information produced from orthofinder, synteny analysis and blast being put into .txt.gz files. Along side this pdfs of the riparian plots and dotplots are also produced.
+Was used to activate R via the command line and then used to install GENESPACE using: 
+devtools::install_github("jtlovell/GENESPACE")
+BiocManager::install("rtracklayer")
+
+
+Once installed the run_r.sh script was used to activate the genespace env that contained all the necessary packages and then used to run the GENESPACE.R script within that env. During the process of running genespace several directories should automatically be created with the necessary data produced via genespace being automatically placed within those directoies, such as specific information produced from orthofinder, synteny analysis and blast being put into .txt.gz files. Along side this pdfs of the riparian plots and dotplots are also produced.
 
 
 
