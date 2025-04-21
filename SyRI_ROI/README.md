@@ -1,7 +1,14 @@
 # SyRI
+workflow of SyRI analysis
+ 
+## MUMmer
+SyRI is a tool used to measure synteny between two different chromosome alignments. because of this MUMmer was used to generate alignments to be used for synteny analysis.Alignments where done between the whole genomes as well as the regions of interest hap1(RL_5) and hap2(RL_2) The output files are.
 
-SyRI is used to measure synteny between two different chromosome alignments. because of this MUMmer was used to generate .delta files of the aligiments, for both the whole genomes as well as the regions of interest, hap1(RL_5) and hap2(RL_2). 
+.delta - alignment files
 
+.rplot - reverse hits
+
+.fplot - forward hits
 
 
 
