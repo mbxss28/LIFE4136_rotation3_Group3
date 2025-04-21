@@ -6,11 +6,14 @@ SyRI is a tool used to measure synteny between two different chromosome alignmen
 
 .delta - alignment files
 
+.filtered.delta - filtered alignment files
+
+these files are created when plotting alingiments
 .rplot - reverse hits
 
 .fplot - forward hits
 
-
+.png - image of plots
 
 
 
