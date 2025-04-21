@@ -8,6 +8,4 @@ conda install r-base=4.4.1
 conda install  r-devtools
 conda install  r-BiocManager
 conda install bioconductor-biostrings
-#To install genespace R needs to be activated within the terminal first
-devtools::install_github("jtlovell/GENESPACE")
-BiocManager::install("rtracklayer")
+
