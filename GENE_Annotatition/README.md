@@ -70,11 +70,6 @@ whole_extract.sh
 
 run_r.sh
 
-
-
-
-
-
 ### installation
 
 Exact installation steps for all the packages used in this analyisis will be shown in 
@@ -82,7 +77,7 @@ Exact installation steps for all the packages used in this analyisis will be sho
 
 
 
-### further information on tools used.
+### 
 [Augustus](https://github.com/Gaius-Augustus/Augustus)
 
 [Blast](https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html)
@@ -98,3 +93,4 @@ Exact installation steps for all the packages used in this analyisis will be sho
 [Orthofinder](https://github.com/davidemms/OrthoFinder)
 
 [Samtools](https://www.htslib.org/doc/samtools-faidx.html)
+
