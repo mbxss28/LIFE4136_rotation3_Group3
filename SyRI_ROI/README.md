@@ -1,6 +1,6 @@
 # SyRI
 
-
+SyRI is used to measure synteny between two different chromosome alignments. because of this MUMmer was used to generate .delta files of the aligiments, for both the whole genomes as well as the regions of interest, hap1(RL_5) and hap2(RL_2). 
 
 
 
