@@ -77,7 +77,7 @@ Exact installation steps for all the packages used in this analyisis will be sho
 
 
 
-### 
+### Link to tools
 [Augustus](https://github.com/Gaius-Augustus/Augustus)
 
 [Blast](https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html)
@@ -93,4 +93,22 @@ Exact installation steps for all the packages used in this analyisis will be sho
 [Orthofinder](https://github.com/davidemms/OrthoFinder)
 
 [Samtools](https://www.htslib.org/doc/samtools-faidx.html)
+
+### References 
+
+Augustus - Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008). Using native and syntenically mapped cDNA alignments to improve de novo gene finding. Bioinformatics, 24(5), pages 637–644, doi: 10.1093/bioinformatics/btn013.
+
+Blast - Camacho, C., Coulouris, G., Avagyan, V., Ma, N., Papadopoulos, J., Bealer, K., and Madden, T.L. 2009. BLAST+: architecture and applications. BMC Bioinformatics, 10, 421.
+
+GENESPACE - Lovell, J.T., Sreedasyam, A., Schranz, M.E., Wilson, M., Carlson, J.W., Harkess, A., Emms, D., Goodstein, D.M. and Schmutz, J., 2022. GENESPACE tracks regions of interest and gene copy number variation across multiple genomes. elife, 11, p.e78526.
+
+gffread - Pertea, G. and Pertea, M., 2020. GFF utilities: GffRead and GffCompare. F1000Research, 9, pp.ISCB-Comm.
+
+helixer - Stiehler, F., Steinborn, M., Scholz, S., Dey, D., Weber, A.P. and Denton, A.K., 2020. Helixer: cross-species gene annotation of large eukaryotic genomes using deep learning. Bioinformatics, 36(22-23), pp.5291-5298.
+
+MCScanX - Yupeng, W., Haibao, T., Debarry, J.D., Xu, T., Jingping, L., Xiyin, W., Tae-Ho, L., Huizhe, J., Barry, M. and Hui, G., 2012. MCScanX: a toolkit for detection and evolutionary analysis of gene synteny and collinearity. Nucleic Acids Res, 40(7), p.e49.
+
+Orthofinder - Emms, D.M. and Kelly, S., 2019. OrthoFinder: phylogenetic orthology inference for comparative genomics. Genome biology, 20, pp.1-14.
+
+Samtools - Danecek, P., Bonfield, J.K., Liddle, J., Marshall, J., Ohan, V., Pollard, M.O., Whitwham, A., Keane, T., McCarthy, S.A., Davies, R.M. and Li, H., 2021. Twelve years of SAMtools and BCFtools. Gigascience, 10(2), p.giab008.
 
