@@ -1,4 +1,5 @@
 #TE annotation requirments
 conda install edta=2.2.2
+conda install samtools=1.21
 conda install repeatmasker=4.1.8
 conda install repeatmodeler=2.0.6
