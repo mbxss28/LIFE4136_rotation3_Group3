@@ -11,6 +11,7 @@
 
 ### Link to tools
 
+[SyRI](https://github.com/schneebergerlab/syri)
 
 ### References
 
