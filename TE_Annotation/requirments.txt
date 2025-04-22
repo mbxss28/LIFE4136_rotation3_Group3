@@ -3,3 +3,4 @@ conda install edta=2.2.2
 conda install samtools=1.21
 conda install repeatmasker=4.1.8
 conda install tesorter=1.4.7
+conda install bedtools=2.31.1
