@@ -1,0 +1,49 @@
+#converting the .gff3 TE annotation files to .BED format
+grep -v '^#' C087_203_mapq_hap1.EDTA.TEanno.gff3 | awk -F'\t' '{OFS="\t"; print $1, $4-1, $5}' > TEshap1.bed
+
+grep -v '^#' C087_203_mapq_hap2.EDTA.TEanno.gff3 | awk -F'\t' '{OFS="\t"; print $1, $4-1, $5}' > TEshap2.bed
+#grep -v '^#' removes comment lines
+#awk -F'\t' process tab separated files
+#OFS="\t" set output field separator to tab (req for bed)
+#print $1, $4-1, $5}' print fields for bed format
+
+
+#convert regions of interest (hap1scaf5 & hap2acaf2) from .fa to .bed
+grep ">" hap1_scaf5.fa | sed 's/>//' | awk -F '[:-]' '{print $1"\t"$2"\t"$3}' > hap1_scaf5.bed
+grep ">" hap2_scaf2.fa | sed 's/>//' | awk -F '[:-]' '{print $1"\t"$2"\t"$3}' > hap2_scaf2.bed
+#grep ">" find any >
+#sed 's/>//' removes any > from file and replaces them with empty characters
+#-F '[:-]' the field seperator has been set to : and - , when encountered text is field separated 
+#'{print $1"\t"$2"\t"$3}' awk can then print the first 3 fields tab separated 
+
+#make 100kb windows in ROI.bed to calculate multiple windows of TE coverage
+conda activate bedtools
+ 
+bedtools makewindows -b hap1_scaf5.bed -w 100000 > hap1_scaf5_windows.bed
+bedtools makewindows -b hap2_scaf2.bed -w 100000 > hap2_scaf2_windows.bed
+
+#converting both haplotype genomes from .fa to .bed minus the regions of interest (hap1scaf5 & hap2acaf2)
+
+conda activate samtools 
+
+#indexing hap1 genome 
+samtools faidx C087_203_mapq_hap1_8.fa
+samtools faidx C087_203_mapq_hap2_8.fa
+#extract first two colummns from indexed genome 
+cut -f1,2 C087_203_mapq_hap1_8.fa.fai > C087_203_mapq_hap1_8.genome
+cut -f1,2 C087_203_mapq_hap2_8.fa.fai > C087_203_mapq_hap2_8.genome
+
+#subtract ROI from hap1 and 2 
+conda activate bedtools 
+
+bedtools complement -i hap1_scaf5.bed -g C087_203_mapq_hap1_8.genome > C087_203_mapq_hap1_8noRL5.bed
+bedtools complement -i hap2_scaf2.bed -g C087_203_mapq_hap2_8.genome > C087_203_mapq_hap2_8noRL2.bed
+
+
+#calculate TE coverage of ROI 
+bedtools coverage -a hap1_scaf5_windows.bed -b TEshap1.bed > hap1_scaf5windows_TE_coverage.txt
+bedtools coverage -a hap2_scaf2_windows.bed -b TEshap1.bed > hap2scaf2_TE_coverage_windows.txt
+
+#calculate TE coverage of rest of genome 
+bedtools coverage -a C087_203_mapq_hap1_8noRL5.bed -b  TEshap1.bed > hap1_TE_coverage.txt
+bedtools coverage -a C087_203_mapq_hap2_8noRL2.bed -b  TEshap1.bed > hap2F_TE_coverage.txt
