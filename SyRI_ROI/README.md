@@ -2,13 +2,24 @@
 workflow of SyRI analysis
  
 ## MUMmer
-SyRI is a tool used to measure synteny between two different chromosome alignments. because of this MUMmer was used to generate alignments to be used for synteny analysis.Alignments where done between the whole genomes as well as the regions of interest hap1(RL_5) and hap2(RL_2) The output files are.
+SyRI is a tool used to measure synteny between two different chromosome alignments. because of this MUMmer was used to generate alignments to be used for synteny analysis.Alignments where done between the whole genomes as well as the regions of interest hap1(RL_5) and hap2(RL_2). To produce the RL_5 and RL_2 files samtools was used using these commands.
+
+samtools faidx C087_203_mapq_hap2_8.fa 
+samtools faidx C087_203_mapq_hap2_8.fa
+
+producing .fa.fai files which where used to make the scaffolds:
+
+samtools faidx C087_203_mapq_hap1_8.fa.fai scaffold5:16000000-23979000 > hap1scaf5.fa
+samtools faidx C087_203_mapq_hap2_8.fa.fai scaffold2:8923000-19004000 > hap2scaf2.fa
+
+once these files where created MUMmer was used to create these files:
 
 .delta - alignment files
 
 .filtered.delta - filtered alignment files
 
-these files are created when plotting alingiments
+these files are created when plotting alingiments:
+
 .rplot - reverse hits
 
 .fplot - forward hits
@@ -16,7 +27,9 @@ these files are created when plotting alingiments
 .png - image of plots
 
 ## Syri
-Once the MUMer .filtered.delta files are produced they are used along side accompanying  C087_203_mapq_hap1_8.fa and C087_203_mapq_hap2_8.fa whiles for the whole genome synteny analysis, and for the comparisons for the regions of interest hap1scaf5.fa/hap2scaf2.fa
+Once the MUMer .filtered.delta files are produced they are used along side accompanying  C087_203_mapq_hap1_8.fa and C087_203_mapq_hap2_8.fa whiles for the whole genome synteny analysis, and for the comparisons for the regions of interest hap1scaf5.fa/hap2scaf2.fa.
+
+Syri produces .vcf.
 
 
 
