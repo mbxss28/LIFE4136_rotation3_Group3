@@ -37,6 +37,8 @@ cut -f1,2 C087_203_mapq_hap1_8.fa > genome.txt
 
 
 
+
+
 ### Link to tools
 
 [SyRI](https://github.com/schneebergerlab/syri)
