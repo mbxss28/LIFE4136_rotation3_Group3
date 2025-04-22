@@ -1,1 +1,4 @@
+#Syri requirments
+conda install syri=1.7.0
+conda install mummer=4.01
 
