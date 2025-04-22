@@ -5,3 +5,4 @@ conda install repeatmasker=4.1.8
 conda install tesorter=1.4.7
 conda install bedtools=2.31.1
 conda install r-base=4.4.1
+conda install r-ggplot2
