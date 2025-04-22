@@ -29,7 +29,11 @@ these files are created when plotting alingiments:
 ## Syri
 Once the MUMer .filtered.delta files are produced they are used along side accompanying  C087_203_mapq_hap1_8.fa and C087_203_mapq_hap2_8.fa whiles for the whole genome synteny analysis, and for the comparisons for the regions of interest hap1scaf5.fa/hap2scaf2.fa.
 
-Syri produces .vcf.
+Syri produces .vcf file
+
+To plot the Syri results these commands where used.
+
+cut -f1,2 C087_203_mapq_hap1_8.fa > genome.txt
 
 
 
