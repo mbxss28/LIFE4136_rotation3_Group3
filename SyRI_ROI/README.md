@@ -16,7 +16,7 @@ these files are created when plotting alingiments
 .png - image of plots
 
 ## Syri
-Once the MUMer .filtered.delta files are produced 
+Once the MUMer .filtered.delta files are produced they are used along side the 
 
 
 
