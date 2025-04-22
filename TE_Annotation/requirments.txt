@@ -4,5 +4,13 @@ conda install samtools=1.21
 conda install repeatmasker=4.1.8
 conda install tesorter=1.4.7
 conda install bedtools=2.31.1
-conda install r-base=4.4.1
-conda install r-ggplot2
+conda install minimap2=2.26 
+conda install mummer4=4.0.0rc1
+conda install trf=4.09.1
+conda install cd-hit=4.8.1
+conda install tidk=0.2.31
+conda install r=4.3
+conda install r-rideogram=0.2.2
+conda install r-ggplot2=3.4.4
+conda install gnuplot=5.4
+conda install unimap=0.1
