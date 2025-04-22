@@ -1,4 +1,4 @@
-# SyRI
+# Synteny plots
 workflow of SyRI analysis
  
 ## MUMmer
@@ -15,7 +15,8 @@ these files are created when plotting alingiments
 
 .png - image of plots
 
-
+## Syri
+Once the MUMer .filtered.delta files are produced 
 
 
 
