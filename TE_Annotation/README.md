@@ -39,6 +39,8 @@ The commands used to edit these files and their outputs are shown in [Commands](
 
 [RepeatMasker](https://github.com/Dfam-consortium/RepeatMasker)
 
+[Samtools](https://www.htslib.org/doc/samtools-faidx.html)
+
 ### References
 Chen, N., 2004. Using Repeat Masker to identify repetitive elements in genomic sequences. Current protocols in bioinformatics, 5(1), pp.4-10.
 
