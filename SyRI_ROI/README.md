@@ -46,6 +46,9 @@ Using the syri.out and hap1scaf5.txt files, plotsr can be used to plot synteny c
 
 mummer_ROI.sh
 
+mummer_wg.sh
+
+mummerplot_wg2.sh
 
 ### Link to tools
 
