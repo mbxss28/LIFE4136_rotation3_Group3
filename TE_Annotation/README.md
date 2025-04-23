@@ -30,6 +30,10 @@ C087_203_mapq_hap1.EDTA.TEanno.gff3 and C087_203_mapq_hap2.EDTA.TEanno.gff3, hap
 The commands used to edit these files and their outputs are shown in [Commands](https://github.com/mbxss28/LIFE4136_rotation3_Group3/blob/main/TE_Annotation/TE_enrichment/percentage_TEcoverage_commands)  with the results then being plotted useing ggplot2.
 
 
+## requirement 
+They can be found in [requirments.txt](https://github.com/mbxss28/LIFE4136_rotation3_Group3/edit/main/TE_Annotation/requirments.txt)
+For the installation of quarTeT 
+
 ### Link to tools
 [EDTA](https://github.com/oushujun/EDTA)
 
