@@ -31,18 +31,16 @@ Once the MUMer .filtered.delta files are produced they are used along side accom
 
 Syri produces .vcf file
 
-syri.out
-syri.err
+syri.out - contains information on query and reference sequence.
+syri.summary - shows a summary of information such as Syntenic regions, Inversions, Translocations, Duplications, Not aligned, SNPs ,Insertions, Deletions, Copygains, Copylosses, Highly diverged, Tandem repeats.    
 
-To plot the Syri results these commands where used.
+To plot the Syri results these commands where used to convert .fa to .txt file
 
 cut -f1,2 hap1scaf5.fa > hap1scaf5.txt
 
+Using the syri.out and hap1scaf5.txt files, plotsr can be used to plot synteny channels producing:
 
-
-
-
-
+.png - image displaying results of syri.summary
 
 ### Link to tools
 
