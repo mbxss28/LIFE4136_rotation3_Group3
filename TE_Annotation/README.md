@@ -27,9 +27,7 @@ quarTeT was used to identify TEs in the centromere since they are typically foun
 TE enrichment using:
 C087_203_mapq_hap1.EDTA.TEanno.gff3 and C087_203_mapq_hap2.EDTA.TEanno.gff3, hap1_scaf5.fa and hap2_scaf5.fa, C087_203_mapq_hap1_8.fa and C087_203_mapq_hap2_8.fa files.
 
-The commands used to edit these files and their outputs are shown in [Commands](https://github.com/mbxss28/LIFE4136_rotation3_Group3/blob/main/TE_Annotation/TE_enrichment/percentage_TEcoverage_commands) 
-
-
+The commands used to edit these files and their outputs are shown in [Commands](https://github.com/mbxss28/LIFE4136_rotation3_Group3/blob/main/TE_Annotation/TE_enrichment/percentage_TEcoverage_commands)  with the results then being plotted useing ggplot2.
 
 
 ### Link to tools
@@ -41,11 +39,21 @@ The commands used to edit these files and their outputs are shown in [Commands](
 
 [Samtools](https://www.htslib.org/doc/samtools-faidx.html)
 
+[BEDtools](https://github.com/arq5x/bedtools2)
+
+[ggplot2](https://ggplot2.tidyverse.org/)
+
 ### References
 Chen, N., 2004. Using Repeat Masker to identify repetitive elements in genomic sequences. Current protocols in bioinformatics, 5(1), pp.4-10.
+
+Danecek, P., Bonfield, J.K., Liddle, J., Marshall, J., Ohan, V., Pollard, M.O., Whitwham, A., Keane, T., McCarthy, S.A., Davies, R.M. and Li, H., 2021. Twelve years of SAMtools and BCFtools. Gigascience, 10(2), p.giab008.
 
 Lin, Y., Ye, C., Li, X., Chen, Q., Wu, Y., Zhang, F., Pan, R., Zhang, S., Chen, S., Wang, X. and Cao, S., 2023. quarTeT: a telomere-to-telomere toolkit for gap-free genome assembly and centromeric repeat identification. Horticulture research, 10(8), p.uhad127.
 
 Ou, S., Su, W., Liao, Y., Chougule, K., Agda, J.R., Hellinga, A.J., Lugo, C.S.B., Elliott, T.A., Ware, D., Peterson, T. and Jiang, N., 2019. Benchmarking transposable element annotation methods for creation of a streamlined, comprehensive pipeline. Genome biology, 20, pp.1-18.
+
+Quinlan AR and Hall IM, 2010. BEDTools: a flexible suite of utilities for comparing genomic features. Bioinformatics. 26, 6, pp. 841–842.
+
+Wickham H (2016). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. ISBN 978-3-319-24277-4, https://ggplot2.tidyverse.org.
 
 Wong, L.H. and Choo, K.A., 2004. Evolutionary dynamics of transposable elements at the centromere. TRENDS in Genetics, 20(12), pp.611-616.
