@@ -31,9 +31,14 @@ Once the MUMer .filtered.delta files are produced they are used along side accom
 
 Syri produces .vcf file
 
+syri.out
+syri.err
+
 To plot the Syri results these commands where used.
 
-cut -f1,2 C087_203_mapq_hap1_8.fa > genome.txt
+cut -f1,2 hap1scaf5.fa > hap1scaf5.txt
+
+
 
 
 
