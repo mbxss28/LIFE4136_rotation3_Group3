@@ -18,10 +18,16 @@ perc.in - percentage insertion
 
 .tbl - shows summary of different retro transposon elements measuring: Number of elements, length occupied and percentage of sequence. Outside of this information of the percentage of sequences that do not fit into any retro transposon element family. 
 
-quarTeT was used to identify TEs in the centromere since they are typically found in those regions (Wong, L.H. and Choo, K.A., 2004)
+quarTeT was used to identify TEs in the centromere since they are typically found in those regions (Wong, L.H. and Choo, K.A., 2004) with the output being the creation of a directory containing:
+
+.canidates - candidate repeat regions are found.
+
+
 
 ### Link to tools
 [EDTA](https://github.com/oushujun/EDTA)
+
+[quarTeT](https://github.com/aaranyue/quarTeT)
 
 [RepeatMasker](https://github.com/Dfam-consortium/RepeatMasker)
 
