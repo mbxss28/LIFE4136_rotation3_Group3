@@ -7,7 +7,7 @@ EDTA used the 087_203_mapq_hap1_8.fa and 087_203_mapq_hap2_8.fa files and accomp
 
 ## Repeat masker
 
-This tool is generally used for repeat sequences in general, however due to the fact that many TEs are repeats it can be used for TE annotation as well. 
+This tool is generally used for repeat sequences in general, however due to the fact that many TEs are repeats it can be used for TE annotation as well, with arabidopis   
 
 
 ### Link to tools
