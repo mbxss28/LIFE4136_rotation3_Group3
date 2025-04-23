@@ -20,6 +20,11 @@ For CentroMiner the only requirement is the C087_203_mapq_hap1_8.fa and C087_203
 
 .canidate - contains information on the chromosome, start, end, length, TR length TR coverage. With this file telling you which centromere canidates there are with files for each chromosome. 
 
+
+## requirement
+
+The requirements of packages used in this workflow will be show in [requirements.txt](https://github.com/mbxss28/LIFE4136_rotation3_Group3/blob/main/Repeats_Annotation/requirements.txt)
+
 ### Order of workflow
 
 which order scripts are run does not matter since they are not dependant on one another to run.
