@@ -27,6 +27,8 @@ quarTeT was used to identify TEs in the centromere since they are typically foun
 TE enrichment using:
 C087_203_mapq_hap1.EDTA.TEanno.gff3 and C087_203_mapq_hap2.EDTA.TEanno.gff3 files 
 
+hap1_scaf5.fa and hap2_scaf5.fa
+
 
 
 ### Link to tools
