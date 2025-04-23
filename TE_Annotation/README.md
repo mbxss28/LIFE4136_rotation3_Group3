@@ -28,6 +28,8 @@ quarTeT was used to identify TEs in the centromere since they are typically foun
 ### References
 Chen, N., 2004. Using Repeat Masker to identify repetitive elements in genomic sequences. Current protocols in bioinformatics, 5(1), pp.4-10.
 
+Lin, Y., Ye, C., Li, X., Chen, Q., Wu, Y., Zhang, F., Pan, R., Zhang, S., Chen, S., Wang, X. and Cao, S., 2023. quarTeT: a telomere-to-telomere toolkit for gap-free genome assembly and centromeric repeat identification. Horticulture research, 10(8), p.uhad127.
+
 Ou, S., Su, W., Liao, Y., Chougule, K., Agda, J.R., Hellinga, A.J., Lugo, C.S.B., Elliott, T.A., Ware, D., Peterson, T. and Jiang, N., 2019. Benchmarking transposable element annotation methods for creation of a streamlined, comprehensive pipeline. Genome biology, 20, pp.1-18.
 
 Wong, L.H. and Choo, K.A., 2004. Evolutionary dynamics of transposable elements at the centromere. TRENDS in Genetics, 20(12), pp.611-616.
