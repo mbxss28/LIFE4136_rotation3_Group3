@@ -8,9 +8,17 @@ git clone https://github.com/aaranyue/quarTeT
 into the working directory being used rather than installing it into the conda env that was created. The instructions for this pipeline come from the [quarTeT](https://github.com/aaranyue/quarTeT) page.
 
 
-From the quarTeT page specifically CentroMiner and TeloExplorer where used to identify centromere and teleomere canidates with the -c plant clade option being used for the run. The output of TeloExplorer is a a .txt file containing information on what repeat was found, a .info file which contains information on what repeat was found, which chromosome the repeat was found and whether the repeat was found on both teleomeres, one or none.
+From the quarTeT page specifically CentroMiner and TeloExplorer where used to identify centromere and teleomere canidates with the -c plant clade option being used for the run. The output of TeloExplorer is a: 
 
-For CentroMiner the only requirement is the C087_203_mapq_hap1_8.fa and C087_203_mapq_hap2_8.fa files with the output being the creation of two directorys one called "Canidates" which contains .canidate files which contains information on the chromosome, start, end, length, TR length TR coverage. With this file telling you which centromere canidates there are. There is a .canidate file for each chromosome.  
+.txt - contains information of what teleomere repeat was found and if .info and .png files are created.
+
+.info file which contains information on what repeat was found, which chromosome the repeat was found and whether the repeat was found on both teleomeres, one or none.
+
+.png - files showing the plots of the teleomeres.
+
+For CentroMiner the only requirement is the C087_203_mapq_hap1_8.fa and C087_203_mapq_hap2_8.fa files with the output being the creation of two directorys one called "Canidates" which contains:
+
+.canidate - contains information on the chromosome, start, end, length, TR length TR coverage. With this file telling you which centromere canidates there are with files for each chromosome. 
 
 
 ### Links to tools
