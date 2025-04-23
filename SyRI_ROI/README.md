@@ -48,7 +48,15 @@ mummer_ROI.sh
 
 mummer_wg.sh
 
+show_coords.sh
+
 mummerplot_wg2.sh
+
+syri_wg.sh
+
+syri_script2.sh
+
+plotsr_script.sh
 
 ### Link to tools
 
