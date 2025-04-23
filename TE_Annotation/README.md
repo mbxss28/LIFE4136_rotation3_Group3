@@ -18,6 +18,7 @@ perc.in - percentage insertion
 
 .tbl - shows summary of different retro transposon elements measuring: Number of elements, length occupied and percentage of sequence. Outside of this information of the percentage of sequences that do not fit into any retro transposon element family. 
 
+quarTeT was used to identify TEs in the centromere since they are typically found in those regions (Wong, L.H. and Choo, K.A., 2004)
 
 ### Link to tools
 [EDTA](https://github.com/oushujun/EDTA)
@@ -25,7 +26,8 @@ perc.in - percentage insertion
 [RepeatMasker](https://github.com/Dfam-consortium/RepeatMasker)
 
 ### References
+Chen, N., 2004. Using Repeat Masker to identify repetitive elements in genomic sequences. Current protocols in bioinformatics, 5(1), pp.4-10.
 
-EDTA - Ou, S., Su, W., Liao, Y., Chougule, K., Agda, J.R., Hellinga, A.J., Lugo, C.S.B., Elliott, T.A., Ware, D., Peterson, T. and Jiang, N., 2019. Benchmarking transposable element annotation methods for creation of a streamlined, comprehensive pipeline. Genome biology, 20, pp.1-18.
+Ou, S., Su, W., Liao, Y., Chougule, K., Agda, J.R., Hellinga, A.J., Lugo, C.S.B., Elliott, T.A., Ware, D., Peterson, T. and Jiang, N., 2019. Benchmarking transposable element annotation methods for creation of a streamlined, comprehensive pipeline. Genome biology, 20, pp.1-18.
 
-RepeatMasker - Chen, N., 2004. Using Repeat Masker to identify repetitive elements in genomic sequences. Current protocols in bioinformatics, 5(1), pp.4-10.
+Wong, L.H. and Choo, K.A., 2004. Evolutionary dynamics of transposable elements at the centromere. TRENDS in Genetics, 20(12), pp.611-616.
