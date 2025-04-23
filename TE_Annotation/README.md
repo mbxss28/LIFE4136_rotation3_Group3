@@ -7,7 +7,16 @@ EDTA used the 087_203_mapq_hap1_8.fa and 087_203_mapq_hap2_8.fa files and accomp
 
 ## Repeat masker
 
-This tool is generally used for repeat sequences in general, however due to the fact that many TEs are repeats it can be used for TE annotation as well, with "Arabidopsis thaliana" being used for the species since it is closly related to "Cardamine Amara". 
+This tool is generally used for repeat sequences in general, however due to the fact that many TEs are repeats it can be used for TE annotation as well, with "Arabidopsis thaliana" being used for the species since it is closly related to "Cardamine Amara". The output of repeat masker is:
+
+.gff - contains information of motifs found at specific genomic locations.
+
+.out - columns are SW score, perc.div, perc.del, perc.in, query sequence, start position, end position, reapeat, repeat family.
+perc.div - percentage divergence
+perc.del - percentage deletion
+perc.in - percentage insertion
+
+.tbl - shows summary of different retro transposon elements measuring: Number of elements, length occupied and percentage of sequence. Outside of this information of the percentage of sequences that do not fit into any retro transposon element family. 
 
 
 ### Link to tools
