@@ -8,13 +8,13 @@ For the puposes of this analysis cardamine amara diploids and there haplosomes, 
 
 
 ### Link to directories
-Gene annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/GENE_Annotatition]
+[Gene annotation](https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/GENE_Annotatition)
 
-Repeat annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/Repeats_Annotation]
+[Repeat annotation](https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/Repeats_Annotation)
 
-TE annotation - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/TE_Annotation]
+[TE annotation](https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/TE_Annotation)
 
-SyRI - [https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/SyRI_ROI]
+[SyRI](https://github.com/mbxss28/LIFE4136_rotation3_Group3/tree/main/SyRI_ROI)
 
 
 ### Requirments 
