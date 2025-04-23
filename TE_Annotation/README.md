@@ -25,9 +25,10 @@ quarTeT was used to identify TEs in the centromere since they are typically foun
 .canidates - candidate repeat regions are found.
 
 TE enrichment using:
-C087_203_mapq_hap1.EDTA.TEanno.gff3 and C087_203_mapq_hap2.EDTA.TEanno.gff3 files 
+C087_203_mapq_hap1.EDTA.TEanno.gff3 and C087_203_mapq_hap2.EDTA.TEanno.gff3, hap1_scaf5.fa and hap2_scaf5.fa, C087_203_mapq_hap1_8.fa and C087_203_mapq_hap2_8.fa files.
 
-hap1_scaf5.fa and hap2_scaf5.fa
+These files where edited using the commands shown in 
+
 
 
 
