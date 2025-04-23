@@ -42,6 +42,11 @@ Using the syri.out and hap1scaf5.txt files, plotsr can be used to plot synteny c
 
 .png - image displaying results of syri.summary
 
+## workflow of scrips 
+
+mummer_ROI.sh
+
+
 ### Link to tools
 
 [SyRI](https://github.com/schneebergerlab/syri)
