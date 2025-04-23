@@ -73,7 +73,7 @@ run_r.sh
 ### installation
 
 Exact installation steps for all the packages used in this analyisis will be shown in 
-[requiments](https://github.com/mbxss28/LIFE4136_rotation3_Group3/blob/main/GENE_Annotatition/requirements.txt).
+[requiments.txt](https://github.com/mbxss28/LIFE4136_rotation3_Group3/blob/main/GENE_Annotatition/requirements.txt).
 
 
 
