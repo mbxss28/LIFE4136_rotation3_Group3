@@ -32,7 +32,7 @@ The commands used to edit these files and their outputs are shown in [Commands](
 
 ## requirement 
 They can be found in [requirments.txt](https://github.com/mbxss28/LIFE4136_rotation3_Group3/edit/main/TE_Annotation/requirments.txt)
-For the installation of quarTeT 
+For the installation of quarTeT v1.25 use git clone [https://github.com/aaranyue/quarTeT/tree/main] in working directory.
 
 ### Link to tools
 [EDTA](https://github.com/oushujun/EDTA)
